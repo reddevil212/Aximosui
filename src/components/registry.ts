@@ -53,7 +53,7 @@ export const componentRegistry: ComponentRegistry = {
     button: {
         name: 'Button',
         dependencies: [
-            '@radix-ui/react-slot', 
+            '@radix-ui/react-slot',
             'class-variance-authority',
             'lucide-react'
         ],
@@ -210,7 +210,7 @@ export const componentRegistry: ComponentRegistry = {
         files: ['resizable.tsx'],
         utils: ['utils']
     },
-   
+
     scrollarea: {
         name: 'ScrollArea',
         dependencies: ['class-variance-authority'],
@@ -277,7 +277,7 @@ export const componentRegistry: ComponentRegistry = {
             'react',
             '@radix-ui/react-switch',
             'class-variance-authority'
-            
+
         ],
         files: ['switch.tsx'],
         utils: ['utils']
@@ -329,6 +329,30 @@ export const componentRegistry: ComponentRegistry = {
         name: 'TreeView',
         dependencies: ['lucide-react', 'framer-motion'],
         files: ['treeview.tsx'],
+        utils: ['utils']
+    },
+    container: {
+        name: 'Container',
+        dependencies: [],
+        files: ['container.tsx'],
+        utils: ['utils']
+    },
+    grid: {
+        name: 'Grid',
+        dependencies: [],
+        files: ['grid.tsx'],
+        utils: ['utils']
+    },
+    stack: {
+        name: 'Stack',
+        dependencies: [],
+        files: ['stack.tsx'],
+        utils: ['utils']
+    },
+    flex: {
+        name: 'Flex',
+        dependencies: [],
+        files: ['flex.tsx'],
         utils: ['utils']
     },
     ThreeDcard: {
