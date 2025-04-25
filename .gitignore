@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+
+# Build outputs
+dist/
+storybook-static/
+.next/
+.turbo/
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+
+# Environment and local files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test files
+*.test.*
+*.spec.*
+coverage/
+
+# Storybook files
+.storybook/
+*.stories.*
+src/stories/
+
+# TypeScript
+*.tsbuildinfo
